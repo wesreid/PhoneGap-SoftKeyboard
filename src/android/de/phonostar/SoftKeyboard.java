@@ -32,7 +32,7 @@ public class SoftKeyboard extends CordovaPlugin {
 
     public int getKeyboardHeight() {
       int heightDiff = webView.getRootView().getHeight() - webView.getHeight();
-      return int;
+      return heightDiff;
     }
 
     @Override
